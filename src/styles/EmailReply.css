@@ -1,0 +1,72 @@
+.main {
+    display:flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+}
+
+.faceIcon{
+    margin-right: 0.5rem;
+}
+
+.replyBox {
+    width: 80%;
+    border:solid 1px black;
+}
+
+.responseRow {
+    margin-left: 10px;
+    display: flex;
+}
+
+.responseRow p {
+    margin-left: 5px;
+    margin-top: 4px;
+    opacity: 70%;
+}
+
+.inputArea textarea {
+    margin: 1rem;
+    border:0px;
+    width: 95%;
+    height: 10rem;
+}
+
+.inputArea textarea:focus {
+    border: 0px;
+    outline: none;
+}
+
+.actionRow{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5px;
+    padding-left: 8px;
+}
+
+.sendButton {
+    background-color: rgb(45, 45, 253);
+    color:white;
+    width: 5rem;
+    height: 2.5rem;
+    font-size: 0.8rem;
+}
+
+.leftController {
+    display: flex;
+    width: 90%;
+}
+
+.leftActionRow {
+    width: 25%;
+    margin-top: 1rem;
+    display:flex;
+    justify-content: space-evenly;
+    opacity: 60%;
+}
+
+.rightActionRow {
+    margin-top: 1rem;
+    padding-left: 3rem;
+    justify-content: right;
+    opacity: 70%;
+}
